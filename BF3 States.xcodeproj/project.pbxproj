@@ -19,6 +19,8 @@
 		E5A6B8E619AF6258002C99AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A6B8CE19AF6258002C99AA /* UIKit.framework */; };
 		E5A6B8EE19AF6258002C99AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5A6B8EC19AF6258002C99AA /* InfoPlist.strings */; };
 		E5A6B8F019AF6258002C99AA /* BF3_StatesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A6B8EF19AF6258002C99AA /* BF3_StatesTests.m */; };
+		E5A6B90119AF62D3002C99AA /* SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A6B90019AF62D3002C99AA /* SplashScreen.m */; };
+		E5A6B90319AF62E4002C99AA /* SplashScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A6B90219AF62E4002C99AA /* SplashScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		E5A6B8EB19AF6258002C99AA /* BF3 StatesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BF3 StatesTests-Info.plist"; sourceTree = "<group>"; };
 		E5A6B8ED19AF6258002C99AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E5A6B8EF19AF6258002C99AA /* BF3_StatesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BF3_StatesTests.m; sourceTree = "<group>"; };
+		E5A6B8FF19AF62D3002C99AA /* SplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreen.h; sourceTree = "<group>"; };
+		E5A6B90019AF62D3002C99AA /* SplashScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreen.m; sourceTree = "<group>"; };
+		E5A6B90219AF62E4002C99AA /* SplashScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,10 @@
 		E5A6B8D019AF6258002C99AA /* BF3 States */ = {
 			isa = PBXGroup;
 			children = (
+				E5A6B8FC19AF6299002C99AA /* Library */,
+				E5A6B8FB19AF6292002C99AA /* Resources */,
+				E5A6B8FA19AF628C002C99AA /* xib */,
+				E5A6B8F919AF6284002C99AA /* Classes */,
 				E5A6B8D919AF6258002C99AA /* AppDelegate.h */,
 				E5A6B8DA19AF6258002C99AA /* AppDelegate.m */,
 				E5A6B8DC19AF6258002C99AA /* Images.xcassets */,
@@ -142,6 +151,37 @@
 				E5A6B8EC19AF6258002C99AA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5A6B8F919AF6284002C99AA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E5A6B8FF19AF62D3002C99AA /* SplashScreen.h */,
+				E5A6B90019AF62D3002C99AA /* SplashScreen.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E5A6B8FA19AF628C002C99AA /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				E5A6B90219AF62E4002C99AA /* SplashScreen.xib */,
+			);
+			name = xib;
+			sourceTree = "<group>";
+		};
+		E5A6B8FB19AF6292002C99AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E5A6B8FC19AF6299002C99AA /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +261,7 @@
 			files = (
 				E5A6B8D519AF6258002C99AA /* InfoPlist.strings in Resources */,
 				E5A6B8DD19AF6258002C99AA /* Images.xcassets in Resources */,
+				E5A6B90319AF62E4002C99AA /* SplashScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5A6B90119AF62D3002C99AA /* SplashScreen.m in Sources */,
 				E5A6B8DB19AF6258002C99AA /* AppDelegate.m in Sources */,
 				E5A6B8D719AF6258002C99AA /* main.m in Sources */,
 			);
